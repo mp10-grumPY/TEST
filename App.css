@@ -1,0 +1,196 @@
+#root{
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+
+}
+.card .card-image{
+  max-width: 70%;
+  height:auto;
+  margin-bottom: 10px;
+
+}
+
+.card .card-name{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  color: brown;
+}
+
+.card .card-desc{
+
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ margin: 0;
+ color: rgb(255, 0, 0);
+}
+
+.student{
+  border: 2px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.LoggedIn{
+  background-color: #333; /* Dark grey background */
+  color: rgb(11, 204, 37); /* White text */
+  padding: 15px 20px; /* Padding inside the element */
+  margin: 10px 0; /* Vertical margin for spacing */
+  border-radius: 5px; /* Optional: rounded corners */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+}
+
+.NotLoggedIn{
+  background-color: #333; /* Dark grey background */
+  color: rgb(255, 1, 1); /* White text */
+  padding: 15px 20px; /* Padding inside the element */
+  margin: 10px 0; /* Vertical margin for spacing */
+  border-radius: 5px; /* Optional: rounded corners */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+}
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: bisque;
+
+}
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+.list-items li:hover{
+  color:hsl(0, 0%, 46%) ;
+  cursor: pointer;
+}
+
+
+
+
+.counter-container{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.count-display{
+    font-size: 10em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.counter-button{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px 5px;
+    background-color: hsl(197, 100%, 58%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.counter-button:hover{
+    background-color: hsl(197, 100%, 48%);
+}
+
+.to-do-title{
+  align-items: center;
+}
+
+body{
+  background-color: hsl(0, 0%, 10%);
+}
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+}
+button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-button{
+  background-color: hsl(125, 61%, 37%);
+
+}
+.add-button:hover{
+  background-color: hsl(125, 47%, 44%);
+}
+.delete-button{
+  background-color: hsl(10, 87%, 34%);
+}
+.delete-button:hover{
+  background-color: hsl(10, 90%, 40%);
+}
+.move-button{
+  background-color: hsl(214, 81%, 71%);
+}
+.move-button:hover{
+  background-color: hsl(207, 90%, 54%);
+}
+input[type="text"]{
+  margin-right: 20px;
+
+  font-size: 1.4rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+ol{
+  padding: 0;
+  display: inline-block;
+}
+li{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+
+
+
+}
+.text{
+  flex: 1;
+}
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
